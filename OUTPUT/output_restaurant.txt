@@ -1,0 +1,394 @@
+Emotion Dictionary (Words and their associated emotions):
+{   'apologize': ['positive', 'sadness', 'trust'],
+    'arrive': ['anticipation'],
+    'assist': ['positive', 'trust'],
+    'authentic': ['joy', 'positive', 'trust'],
+    'awful': ['anger', 'disgust', 'fear', 'negative', 'sadness'],
+    'bad': ['anger', 'disgust', 'fear', 'negative', 'sadness'],
+    'bartender': ['trust'],
+    'benefit': ['positive'],
+    'birthday': ['anticipation', 'joy', 'positive', 'surprise'],
+    'bland': ['negative'],
+    'blast': ['anger', 'fear', 'negative', 'surprise'],
+    'bother': ['negative'],
+    'bottom': ['negative', 'sadness'],
+    'burnt': ['disgust', 'negative'],
+    'case': ['fear', 'negative', 'sadness'],
+    'celebration': ['anticipation', 'joy', 'positive', 'surprise', 'trust'],
+    'chance': ['surprise'],
+    'chart': ['trust'],
+    'chicken': ['fear'],
+    'cold': ['negative'],
+    'coming': ['anticipation'],
+    'completely': ['positive'],
+    'cool': ['positive'],
+    'cross': ['anger', 'fear', 'negative', 'sadness'],
+    'customer': ['positive'],
+    'daughter': ['joy', 'positive'],
+    'deal': ['anticipation', 'joy', 'positive', 'surprise', 'trust'],
+    'deserve': ['anger', 'anticipation', 'positive', 'trust'],
+    'dinner': ['positive'],
+    'dirty': ['disgust', 'negative'],
+    'disappointed': ['anger', 'disgust', 'negative', 'sadness'],
+    'disappointing': ['negative', 'sadness'],
+    'disaster': ['anger', 'disgust', 'fear', 'negative', 'sadness', 'surprise'],
+    'discriminate': ['anger', 'negative', 'sadness'],
+    'disgusting': ['anger', 'disgust', 'fear', 'negative'],
+    'doubt': ['fear', 'negative', 'sadness', 'trust'],
+    'eat': ['positive'],
+    'enjoy': ['anticipation', 'joy', 'positive', 'trust'],
+    'expired': ['negative'],
+    'fat': ['disgust', 'negative', 'sadness'],
+    'finally': [   'anticipation',
+                   'disgust',
+                   'joy',
+                   'positive',
+                   'surprise',
+                   'trust'],
+    'food': ['joy', 'positive', 'trust'],
+    'forgotten': ['fear', 'negative', 'sadness'],
+    'friend': ['joy', 'positive', 'trust'],
+    'full': ['positive'],
+    'garbage': ['disgust', 'negative'],
+    'garden': ['joy', 'positive'],
+    'giving': ['positive'],
+    'good': ['anticipation', 'joy', 'positive', 'surprise', 'trust'],
+    'guess': ['surprise'],
+    'happy': ['anticipation', 'joy', 'positive', 'trust'],
+    'horrible': ['anger', 'disgust', 'fear', 'negative'],
+    'immediately': ['anticipation', 'negative', 'positive'],
+    'important': ['positive', 'trust'],
+    'impossible': ['negative', 'sadness'],
+    'late': ['negative', 'sadness'],
+    'leave': ['negative', 'sadness', 'surprise'],
+    'long': ['anticipation'],
+    'lost': ['negative', 'sadness'],
+    'love': ['joy', 'positive'],
+    'lower': ['negative', 'sadness'],
+    'management': ['positive', 'trust'],
+    'march': ['positive'],
+    'money': ['anger', 'anticipation', 'joy', 'positive', 'surprise', 'trust'],
+    'nerve': ['positive'],
+    'pay': ['anticipation', 'joy', 'positive', 'trust'],
+    'peace': ['anticipation', 'joy', 'positive', 'trust'],
+    'pick': ['positive'],
+    'poisoning': ['disgust', 'negative'],
+    'polite': ['positive'],
+    'prepare': ['anticipation', 'positive'],
+    'pretty': ['anticipation', 'joy', 'positive', 'trust'],
+    'problem': ['fear', 'negative', 'sadness'],
+    'proof': ['trust'],
+    'prove': ['positive'],
+    'question': ['positive'],
+    'ready': ['anticipation'],
+    'reason': ['positive'],
+    'received': ['positive'],
+    'recommend': ['positive', 'trust'],
+    'renewal': ['positive'],
+    'rest': ['positive'],
+    'ridiculous': ['anger', 'disgust', 'negative'],
+    'sadly': ['negative', 'sadness'],
+    'score': ['anticipation', 'joy', 'positive', 'surprise'],
+    'screaming': ['anger', 'disgust', 'fear', 'negative'],
+    'seasoned': ['positive'],
+    'serve': ['negative', 'trust'],
+    'shell': ['anger', 'fear', 'negative', 'sadness', 'surprise'],
+    'soup': ['positive'],
+    'sour': ['disgust', 'negative'],
+    'spoke': ['negative'],
+    'star': ['anticipation', 'joy', 'positive', 'trust'],
+    'start': ['anticipation'],
+    'stingy': ['anger', 'disgust', 'fear', 'negative', 'sadness'],
+    'surprised': ['surprise'],
+    'talk': ['positive'],
+    'terrible': ['anger', 'disgust', 'fear', 'negative', 'sadness'],
+    'thought': ['anticipation'],
+    'time': ['anticipation'],
+    'top': ['anticipation', 'positive', 'trust'],
+    'trash': ['disgust', 'negative', 'sadness'],
+    'unlimited': ['positive'],
+    'unsatisfied': ['disgust', 'negative', 'sadness'],
+    'visit': ['positive'],
+    'wait': ['anticipation', 'negative'],
+    'wanting': ['negative', 'sadness'],
+    'wasted': ['anger', 'disgust', 'negative'],
+    'watery': ['negative'],
+    'white': ['anticipation', 'joy', 'positive', 'trust'],
+    'wont': ['anticipation'],
+    'worth': ['positive'],
+    'wrong': ['negative'],
+    'young': ['anticipation', 'joy', 'positive', 'surprise']}
+
+Target emotions and their associated keywords (target keywords):
+{   'anger': [   'stingy',
+                 'blast',
+                 'bad',
+                 'money',
+                 'disappointed',
+                 'wasted',
+                 'discriminate',
+                 'cross',
+                 'deserve',
+                 'disgusting',
+                 'shell',
+                 'screaming',
+                 'horrible',
+                 'ridiculous',
+                 'disaster',
+                 'awful',
+                 'terrible'],
+    'disgust': [   'stingy',
+                   'bad',
+                   'garbage',
+                   'disappointed',
+                   'finally',
+                   'wasted',
+                   'dirty',
+                   'burnt',
+                   'trash',
+                   'disgusting',
+                   'sour',
+                   'screaming',
+                   'fat',
+                   'horrible',
+                   'ridiculous',
+                   'disaster',
+                   'poisoning',
+                   'awful',
+                   'terrible',
+                   'unsatisfied'],
+    'negative': [   'problem',
+                    'stingy',
+                    'blast',
+                    'leave',
+                    'bad',
+                    'garbage',
+                    'disappointed',
+                    'wait',
+                    'immediately',
+                    'forgotten',
+                    'impossible',
+                    'watery',
+                    'expired',
+                    'bland',
+                    'wasted',
+                    'discriminate',
+                    'dirty',
+                    'spoke',
+                    'disappointing',
+                    'cross',
+                    'wrong',
+                    'late',
+                    'lost',
+                    'doubt',
+                    'burnt',
+                    'bottom',
+                    'trash',
+                    'disgusting',
+                    'sadly',
+                    'sour',
+                    'shell',
+                    'bother',
+                    'cold',
+                    'case',
+                    'serve',
+                    'screaming',
+                    'lower',
+                    'fat',
+                    'horrible',
+                    'ridiculous',
+                    'disaster',
+                    'wanting',
+                    'poisoning',
+                    'awful',
+                    'terrible',
+                    'unsatisfied']}
+
+Frequency of Target Keywords: 
+{   'awful': 1,
+    'bad': 4,
+    'bland': 2,
+    'blast': 1,
+    'bother': 1,
+    'bottom': 1,
+    'burnt': 1,
+    'case': 1,
+    'cold': 6,
+    'cross': 1,
+    'deserve': 1,
+    'dirty': 1,
+    'disappointed': 4,
+    'disappointing': 1,
+    'disaster': 1,
+    'discriminate': 1,
+    'disgusting': 1,
+    'doubt': 1,
+    'expired': 1,
+    'fat': 1,
+    'finally': 3,
+    'forgotten': 1,
+    'garbage': 1,
+    'horrible': 2,
+    'immediately': 1,
+    'impossible': 1,
+    'late': 1,
+    'leave': 5,
+    'lost': 1,
+    'lower': 1,
+    'money': 2,
+    'poisoning': 1,
+    'problem': 2,
+    'ridiculous': 1,
+    'sadly': 1,
+    'screaming': 2,
+    'serve': 1,
+    'shell': 1,
+    'sour': 1,
+    'spoke': 1,
+    'stingy': 2,
+    'terrible': 1,
+    'trash': 1,
+    'unsatisfied': 1,
+    'wait': 4,
+    'wanting': 1,
+    'wasted': 1,
+    'watery': 1,
+    'wrong': 2}
+
+.....Generated Word Cloud:  ../OUTPUT/wordcloud_restaurant.png
+
+Categories:
+Category: service
+	Keyword count: 32
+	Keywords: ['cross', 'spoke', 'problem', 'shell', 'cold', 'lower', 'garbage', 'forgotten', 'disaster', 'finally', 'burnt', 'stingy', 'leave', 'screaming', 'wanting', 'case', 'bottom', 'expired', 'wasted', 'discriminate', 'immediately', 'trash', 'late', 'deserve', 'serve', 'doubt', 'unsatisfied', 'dirty', 'blast', 'lost', 'money', 'fat']
+
+Category: marketing
+	Keyword count: 22
+	Keywords: ['cross', 'spoke', 'problem', 'cold', 'wait', 'disaster', 'finally', 'poisoning', 'stingy', 'screaming', 'wanting', 'case', 'bottom', 'expired', 'discriminate', 'immediately', 'trash', 'doubt', 'bland', 'lost', 'money', 'fat']
+
+Category: good food
+	Keyword count: 14
+	Keywords: ['cold', 'sour', 'garbage', 'poisoning', 'bad', 'wasted', 'trash', 'terrible', 'deserve', 'serve', 'horrible', 'dirty', 'money', 'fat']
+
+Category: hygiene
+	Keyword count: 12
+	Keywords: ['disgusting', 'cold', 'sour', 'garbage', 'watery', 'disaster', 'poisoning', 'discriminate', 'trash', 'dirty', 'money', 'fat']
+
+Category: ambiance
+	Keyword count: 6
+	Keywords: ['shell', 'garbage', 'finally', 'stingy', 'bland', 'blast']
+
+Category: responsiveness
+	Keyword count: 6
+	Keywords: ['problem', 'cold', 'case', 'immediately', 'unsatisfied', 'fat']
+
+Category: community connection
+	Keyword count: 4
+	Keywords: ['problem', 'late', 'lost', 'money']
+
+Category: menu
+	Keyword count: 3
+	Keywords: ['shell', 'bottom', 'serve']
+
+Category: efficient operation
+	Keyword count: 2
+	Keywords: ['wasted', 'immediately']
+
+Category: sourcing and sustainability
+	Keyword count: 1
+	Keywords: ['sour']
+
+
+Top 3 categories with their corresponding questions:
+Category: service
+	Keyword count: 32
+	Question: How can my restaurant maintain staff efficiency?
+
+Category: marketing
+	Keyword count: 22
+	Question: How can I market my restaurant?
+
+Category: good food
+	Keyword count: 14
+	Question: How can my restaurants address the customers' dining satisfaction?
+
+
+GPT Generated Recommendations based on Questions:
+Question: How can my restaurant maintain staff efficiency?
+
+There are several strategies you can implement to maintain staff efficiency in your restaurant:
+
+1. Clear communication: Ensure that your staff understands their roles and responsibilities clearly. Regularly communicate expectations, goals, and any changes in procedures or policies. Encourage open communication and provide a platform for staff to share their ideas and concerns.
+
+2. Training and development: Invest in training programs to enhance the skills and knowledge of your staff. Provide ongoing training to keep them updated on new techniques, menu items, and customer service practices. This will help them perform their tasks efficiently and confidently.
+
+3. Streamline processes: Identify any bottlenecks or inefficiencies in your restaurant's operations and work on streamlining them. Simplify procedures, eliminate unnecessary steps, and automate tasks wherever possible. This will save time and effort for your staff, allowing them to focus on more important tasks.
+
+4. Set realistic goals and targets: Establish achievable goals and targets for your staff. Break down larger goals into smaller, manageable tasks. Regularly monitor progress and provide feedback to keep them motivated and on track.
+
+5. Provide necessary tools and resources: Ensure that your staff has access to the necessary tools, equipment, and resources to perform their jobs efficiently. This includes providing them with quality kitchen equipment, POS systems, and adequate staffing levels to avoid overburdening them.
+
+6. Foster a positive work environment: Create a positive and supportive work environment where staff feel valued and motivated. Recognize and reward their efforts and achievements. Encourage teamwork, collaboration, and a sense of ownership in their work.
+
+7. Regular performance evaluations: Conduct regular performance evaluations to assess individual staff performance. Provide constructive feedback and identify areas for improvement. Offer opportunities for growth and advancement within the restaurant.
+
+8. Time management: Help your staff manage their time effectively by implementing efficient scheduling practices. Avoid overstaffing or understaffing during peak and slow periods. Use scheduling software to optimize shifts and minimize conflicts.
+
+9. Employee incentives: Implement incentive programs to reward and motivate your staff. This can include bonuses, performance-based rewards, employee of the month recognition, or other incentives that align with your restaurant's culture and values.
+
+10. Continuous improvement: Encourage a culture of continuous improvement by seeking feedback from your staff. Regularly ask for their input on how to improve processes, enhance customer service, or increase efficiency. Actively involve them in decision-making and problem-solving.
+
+By implementing these strategies, you can maintain staff efficiency and create a productive and successful restaurant environment.
+
+Question: How can I market my restaurant?
+
+There are several effective ways to market your restaurant. Here are some strategies you can consider:
+
+1. Develop a strong online presence: Create a professional website for your restaurant that includes your menu, contact information, and online reservation options. Utilize social media platforms like Facebook, Instagram, and Twitter to engage with your audience, share enticing food photos, and promote special offers.
+
+2. Local SEO: Optimize your website and online listings for local search engine optimization (SEO). This involves using relevant keywords, ensuring accurate business information, and encouraging customers to leave positive reviews.
+
+3. Collaborate with food influencers: Partner with local food bloggers, influencers, or reviewers who can promote your restaurant to their followers. Offer them a complimentary meal or exclusive discounts in exchange for their honest reviews and social media posts.
+
+4. Host events and promotions: Organize special events such as live music nights, themed dinners, or happy hour promotions to attract new customers and create buzz around your restaurant. Consider partnering with local businesses or charities to co-host events and expand your reach.
+
+5. Loyalty programs and referral incentives: Implement a loyalty program to reward repeat customers and encourage them to bring in new patrons. Offer incentives such as discounts, freebies, or exclusive access to special events.
+
+6. Engage with the local community: Participate in local events, sponsor sports teams or community organizations, and collaborate with neighboring businesses to cross-promote each other. This helps build a positive reputation and increases your visibility within the community.
+
+7. Online food delivery platforms: Partner with popular food delivery platforms like Uber Eats, Grubhub, or DoorDash to expand your reach and cater to customers who prefer ordering food online. Ensure your menu is updated and your delivery service is efficient.
+
+8. Email marketing: Collect customer email addresses and send out regular newsletters or promotional offers to keep them engaged and informed about your restaurant's updates, special events, or new menu items.
+
+9. Offer unique dining experiences: Differentiate your restaurant by offering unique dining experiences such as chef's table dinners, cooking classes, or wine tastings. These experiences can attract food enthusiasts and generate positive word-of-mouth.
+
+10. Monitor and respond to online reviews: Regularly monitor and respond to online reviews on platforms like Google, Yelp, or TripAdvisor. Address both positive and negative feedback promptly and professionally to show that you value customer opinions and are committed to providing excellent service.
+
+Remember, consistency, quality, and excellent customer service are key to successful restaurant marketing.
+
+Question: How can my restaurants address the customers' dining satisfaction?
+
+There are several ways your restaurant can address customers' dining satisfaction:
+
+1. Quality of Food: Ensure that the food you serve is of high quality, fresh, and delicious. Pay attention to the taste, presentation, and consistency of your dishes.
+
+2. Menu Variety: Offer a diverse menu that caters to different tastes and dietary preferences. Include vegetarian, vegan, gluten-free, and other options to accommodate a wider range of customers.
+
+3. Customer Service: Train your staff to provide excellent customer service. They should be friendly, attentive, and knowledgeable about the menu. Encourage them to go the extra mile to make customers feel valued and satisfied.
+
+4. Timely Service: Minimize waiting times for customers by optimizing your kitchen operations and ensuring efficient service. Promptly take orders, serve food in a timely manner, and address any issues or delays promptly.
+
+5. Cleanliness and Ambiance: Maintain a clean and inviting atmosphere in your restaurant. Regularly clean tables, chairs, and restrooms. Pay attention to lighting, music, and overall ambiance to create a pleasant dining experience.
+
+6. Feedback and Communication: Encourage customers to provide feedback on their dining experience. Offer comment cards, online surveys, or feedback forms. Actively listen to their suggestions, complaints, and compliments, and take appropriate actions to address them.
+
+7. Consistency: Strive for consistency in all aspects of your restaurant, including food quality, service, and ambiance. Customers should have a similar experience each time they visit, ensuring their satisfaction is not dependent on chance.
+
+8. Special Offers and Loyalty Programs: Reward loyal customers with special offers, discounts, or loyalty programs. This can help build a strong relationship with your customers and encourage repeat visits.
+
+9. Social Media Engagement: Utilize social media platforms to engage with customers, share updates, and respond to their queries or feedback. This can help create a sense of community and make customers feel heard and valued.
+
+10. Continuous Improvement: Regularly assess and improve your restaurant's operations based on customer feedback and industry trends. Stay updated with the latest food trends, incorporate new dishes, and adapt to changing customer preferences.
+
+By focusing on these aspects, your restaurant can enhance customers' dining satisfaction and build a loyal customer base.
+

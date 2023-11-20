@@ -1,0 +1,224 @@
+Emotion Dictionary (Words and their associated emotions):
+{   'advanced': ['positive'],
+    'attendance': ['anticipation'],
+    'board': ['anticipation'],
+    'change': ['fear'],
+    'cohesive': ['positive', 'trust'],
+    'confirmed': ['positive', 'trust'],
+    'content': ['joy', 'positive', 'trust'],
+    'difficult': ['fear'],
+    'discussion': ['positive'],
+    'effective': ['positive', 'trust'],
+    'energetic': ['positive'],
+    'enthusiasm': ['anticipation', 'joy', 'positive', 'surprise'],
+    'expected': ['anticipation'],
+    'expecting': ['anticipation'],
+    'experienced': ['positive', 'trust'],
+    'found': ['joy', 'positive', 'trust'],
+    'friend': ['joy', 'positive', 'trust'],
+    'fun': ['anticipation', 'joy', 'positive'],
+    'general': ['positive', 'trust'],
+    'good': ['anticipation', 'joy', 'positive', 'surprise', 'trust'],
+    'guidance': ['positive', 'trust'],
+    'inefficient': ['negative', 'sadness'],
+    'information': ['positive'],
+    'instruction': ['positive', 'trust'],
+    'job': ['positive'],
+    'kind': ['joy', 'positive', 'trust'],
+    'knowledge': ['positive'],
+    'lack': ['negative'],
+    'learn': ['positive'],
+    'learning': ['positive'],
+    'level': ['positive', 'trust'],
+    'long': ['anticipation'],
+    'majority': ['joy', 'positive', 'trust'],
+    'nightmare': ['fear', 'negative'],
+    'organized': ['positive'],
+    'palpable': ['surprise'],
+    'pandemic': ['fear', 'negative', 'sadness'],
+    'participation': ['positive'],
+    'physics': ['positive'],
+    'poorly': ['negative'],
+    'practice': ['positive'],
+    'problem': ['fear', 'negative', 'sadness'],
+    'professor': ['positive', 'trust'],
+    'proper': ['positive'],
+    'question': ['positive'],
+    'quiz': ['negative'],
+    'reading': ['positive'],
+    'recommend': ['positive', 'trust'],
+    'redundant': ['negative'],
+    'related': ['trust'],
+    'relevant': ['positive', 'trust'],
+    'reticent': ['fear', 'negative'],
+    'small': ['negative'],
+    'solution': ['positive'],
+    'start': ['anticipation'],
+    'subject': ['negative'],
+    'supporting': ['positive', 'trust'],
+    'taught': ['trust'],
+    'teach': ['joy', 'positive', 'surprise', 'trust'],
+    'teacher': ['positive', 'trust'],
+    'time': ['anticipation'],
+    'track': ['anticipation'],
+    'understanding': ['positive', 'trust']}
+
+Target emotions and their associated keywords (target keywords):
+{   'anger': [],
+    'negative': [   'poorly',
+                    'lack',
+                    'reticent',
+                    'problem',
+                    'small',
+                    'inefficient',
+                    'redundant',
+                    'subject',
+                    'nightmare',
+                    'pandemic',
+                    'quiz'],
+    'sadness': ['problem', 'inefficient', 'pandemic']}
+
+Frequency of Target Keywords: 
+{   'inefficient': 1,
+    'lack': 2,
+    'nightmare': 1,
+    'pandemic': 1,
+    'poorly': 1,
+    'problem': 1,
+    'quiz': 1,
+    'redundant': 1,
+    'reticent': 1,
+    'small': 2,
+    'subject': 1}
+
+.....Generated Word Cloud:  ./OUTPUT/wordcloud_education.png
+
+Categories:
+Category: Enthusiasm for the subject
+	Keyword count: 4
+	Keywords: ['lack', 'subject', 'quiz', 'reticent']
+
+Category: Preparedness
+	Keyword count: 3
+	Keywords: ['pandemic', 'quiz', 'reticent']
+
+Category: Grading
+	Keyword count: 2
+	Keywords: ['subject', 'quiz']
+
+Category: Course relevance
+	Keyword count: 2
+	Keywords: ['subject', 'quiz']
+
+Category: Ability to explain difficult concepts
+	Keyword count: 2
+	Keywords: ['poorly', 'subject']
+
+Category: Presentation ability
+	Keyword count: 2
+	Keywords: ['subject', 'reticent']
+
+Category: Course organization
+	Keyword count: 1
+	Keywords: ['subject']
+
+Category: Homework effectiveness
+	Keyword count: 1
+	Keywords: ['quiz']
+
+Category: Responsiveness to students' needs
+	Keyword count: 0
+	Keywords: []
+
+Category: Effectiveness of examples
+	Keyword count: 0
+	Keywords: []
+
+
+Top 3 categories with their corresponding questions:
+Category: Enthusiasm for the subject
+	Keyword count: 4
+	Question: What are some creative ways in which I can convey my enthusiasm for the subject matter?
+
+Category: Preparedness
+	Keyword count: 3
+	Question: Give me creative ways to effectively prepare for my classes.
+
+Category: Grading
+	Keyword count: 2
+	Question: How can I creatively improve my grading
+
+
+GPT Generated Recommendations based on Questions:
+Question: What are some creative ways in which I can convey my enthusiasm for the subject matter?
+
+1. Use visual aids: Create colorful and engaging presentations or infographics that showcase your enthusiasm. Incorporate relevant images, charts, and graphs to make your points visually appealing.
+
+2. Share personal anecdotes: Connect with your audience by sharing personal stories or experiences related to the subject matter. This will not only demonstrate your enthusiasm but also make the topic more relatable and engaging.
+
+3. Use props or demonstrations: Bring in props or conduct live demonstrations to illustrate key concepts. This hands-on approach can capture attention and show your passion for the subject matter.
+
+4. Incorporate multimedia: Utilize videos, audio clips, or interactive elements to enhance your presentation. This can help break the monotony and make the subject matter more exciting and dynamic.
+
+5. Engage in interactive activities: Incorporate group discussions, brainstorming sessions, or interactive games to actively involve your audience. This will create a lively and enthusiastic atmosphere around the subject matter.
+
+6. Use humor: Inject humor into your presentation to keep the audience engaged and entertained. A well-placed joke or funny anecdote can help convey your enthusiasm and make the subject matter more enjoyable.
+
+7. Showcase real-world examples: Use real-life examples or case studies to demonstrate the practical applications of the subject matter. This will help your audience see the relevance and impact of the topic, increasing their interest and your enthusiasm.
+
+8. Incorporate storytelling: Craft a compelling narrative around the subject matter to captivate your audience. Storytelling can evoke emotions and create a memorable experience, showcasing your passion for the topic.
+
+9. Engage with multimedia platforms: Utilize social media, blogs, or podcasts to share your enthusiasm beyond the presentation. Create engaging content, share interesting articles, or start discussions to connect with others who share your passion.
+
+10. Use body language and vocal variation: Your non-verbal cues, such as gestures, facial expressions, and tone of voice, can convey your enthusiasm. Maintain an energetic and positive demeanor throughout your presentation to show your passion for the subject matter.
+
+Remember, the key is to be authentic and genuine in your enthusiasm. Passion is contagious, and by showcasing your genuine excitement, you can inspire and engage others in the subject matter.
+
+Question: Give me creative ways to effectively prepare for my classes.
+
+1. Create a visual study guide: Instead of traditional note-taking, try creating a visual study guide using mind maps, diagrams, or flowcharts. This can help you organize information in a more engaging and memorable way.
+
+2. Teach someone else: The best way to solidify your understanding of a topic is to teach it to someone else. Find a study buddy or family member and explain the concepts you're learning in your classes. This will not only help you retain information but also identify any gaps in your knowledge.
+
+3. Gamify your learning: Turn your study sessions into a game by creating flashcards, quizzes, or trivia questions related to the topics you're studying. Challenge yourself or compete with friends to make the learning process more enjoyable and interactive.
+
+4. Use mnemonic devices: Memorizing information can be challenging, but mnemonic devices can make it easier. Create acronyms, rhymes, or visual associations to help you remember key concepts or lists of information.
+
+5. Incorporate technology: Utilize educational apps, online resources, or interactive websites to supplement your learning. Many platforms offer interactive quizzes, videos, and simulations that can make studying more engaging and effective.
+
+6. Connect concepts to real-life examples: Relate the topics you're studying to real-life situations or examples. This can help you understand the practical applications of what you're learning and make it more relatable and memorable.
+
+7. Break it down: Instead of cramming all your studying into one long session, break it down into smaller, focused study sessions. This technique, known as spaced repetition, allows for better retention and comprehension of the material.
+
+8. Create a study schedule: Plan out your study sessions in advance and create a schedule that includes specific topics or tasks for each session. Having a structured plan will help you stay organized and ensure you cover all the necessary material.
+
+9. Join study groups or discussion forums: Collaborate with classmates by joining study groups or participating in online discussion forums. Exploring different perspectives and discussing concepts with others can deepen your understanding and provide new insights.
+
+10. Take breaks and practice self-care: Remember to take regular breaks during your study sessions to avoid burnout. Engage in activities that help you relax and recharge, such as exercise, meditation, or hobbies. Taking care of your overall well-being will enhance your ability to focus and retain information.
+
+Question: How can I creatively improve my grading
+
+There are several ways you can creatively improve your grading process. Here are some ideas:
+
+1. Use rubrics: Develop detailed rubrics that clearly outline the criteria for each grade level. This will help you provide specific feedback to students and ensure consistency in grading.
+
+2. Provide constructive feedback: Instead of simply assigning grades, focus on providing meaningful feedback that helps students understand their strengths and areas for improvement. Use specific examples and suggestions for improvement.
+
+3. Offer alternative assessments: Consider incorporating alternative assessments, such as projects, presentations, or portfolios, that allow students to showcase their understanding in different ways. This can provide a more comprehensive view of their abilities and reduce reliance on traditional tests.
+
+4. Encourage self-assessment: Have students reflect on their own work and provide self-assessment. This can help them take ownership of their learning and develop critical thinking skills.
+
+5. Use technology: Explore online tools and platforms that can streamline the grading process and provide interactive feedback. This can save time and allow for more personalized feedback.
+
+6. Gamify grading: Turn grading into a game by creating a point system or leaderboard. This can motivate students to strive for higher grades and make the process more engaging.
+
+7. Collaborate with students: Involve students in the grading process by allowing them to participate in peer grading or self-assessment activities. This promotes a sense of ownership and responsibility for their learning.
+
+8. Provide opportunities for revision: Instead of finalizing grades after one submission, allow students to revise their work based on feedback. This encourages continuous improvement and growth mindset.
+
+9. Celebrate progress: Recognize and celebrate students' progress and effort, not just the final grade. This can boost motivation and encourage a positive learning environment.
+
+10. Seek feedback from students: Regularly ask students for feedback on your grading methods and incorporate their suggestions. This shows that you value their input and helps you refine your approach.
+
+Remember, creativity in grading involves finding ways to provide meaningful feedback, promote student engagement, and foster a positive learning environment.
+
