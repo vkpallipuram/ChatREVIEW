@@ -18,7 +18,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from termcolor import colored
 import openai
 
-openai.api_key = "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"
+openai.api_key = ""
 REVIEWS_FILE_PATH = '../data/Hospitality_Data/HospitalityReviews.txt'
 CATEGORIES_QUESTIONS_FILEPATH = '../data/Hospitality_Data/hospitallity_explicit.csv'
 # Education: ["negative", "anger", "sadness"]
