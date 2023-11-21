@@ -3,6 +3,18 @@
 B. Ho, T. Mayberry, K.L. Nguyen, M. Dhulipala, V.K. Pallipuram (2023). ChatReview: A ChatGPT-enabled natural language processing framework to study
 domain-specific user reviews, University of the Pacific.
 
+# Abstract
+
+We present ChatReview, a ChatGPT-enabled natural language processing framework that effectively studies domain-specific user
+reviews to offer relevant and personalized search results at multiple levels of granularity. The framework accomplishes this task
+using four phases including data collection, tokenization, query construction, and response generation. The data collection phase
+involves gathering domain-specific user reviews from public and private repositories. In the tokenization phase, ChatReview applies
+sentiment analysis to extract keywords and categorize them into various sentiment classes. This process creates a token repository
+that best describes the user sentiments for a given user-review data. In the query construction phase, the framework uses the
+token repository and domain knowledge to construct three types of ChatGPT prompts including explicit, implicit, and creative.
+In the response generation phase, ChatReview pipelines these prompts into ChatGPT to generate search results at varying levels
+of granularity.
+
 # Chat Review Analyzer
 
 This Python script analyzes reviews, visualizes emotional content using NLP (Natural Language Processing) techniques, and generates recommendations using ChatGPT API.
