@@ -1,3 +1,8 @@
+# **This work is currently under review in Machine Learning and Applications as of August 31 2023. Please cite the paper as follows:**
+
+B. Ho, T. Mayberry, K.L. Nguyen, M. Dhulipala, V.K. Pallipuram (2023). ChatReview: A ChatGPT-enabled natural language processing framework to study
+domain-specific user reviews, University of the Pacific.
+
 # Chat Review Analyzer
 
 This Python script analyzes reviews, visualizes emotional content using NLP (Natural Language Processing) techniques, and generates recommendations using ChatGPT API.
