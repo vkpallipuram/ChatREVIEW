@@ -1,4 +1,4 @@
-# **This work is currently under review in Machine Learning and Applications as of August 31 2023. Please cite the paper as follows:**
+ **This work has been accepted in Machine Learning and Applications as of December 17 2023. Please cite the paper as follows until further update**
 
 B. Ho, T. Mayberry, K.L. Nguyen, M. Dhulipala, V.K. Pallipuram (2023). ChatReview: A ChatGPT-enabled natural language processing framework to study
 domain-specific user reviews, University of the Pacific.
