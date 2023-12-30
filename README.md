@@ -1,7 +1,8 @@
  **This work has been accepted in Machine Learning and Applications as of December 17 2023. Please cite the paper as follows until further update**
 
-B. Ho, T. Mayberry, K.L. Nguyen, M. Dhulipala, V.K. Pallipuram (2023). ChatReview: A ChatGPT-enabled natural language processing framework to study
-domain-specific user reviews, University of the Pacific.
+Brittany Ho, Ta’Rhonda Mayberry, Khanh Linh Nguyen, Manohar Dhulipala, Vivek Krishnamani Pallipuram,
+ChatReview: A ChatGPT-enabled natural language processing framework to study domain-specific user reviews,
+Machine Learning with Applications, 2023, 100522, ISSN 2666-8270, https://doi.org/10.1016/j.mlwa.2023.100522.
 
 # Abstract
 
