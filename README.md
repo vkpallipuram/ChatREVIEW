@@ -2,7 +2,8 @@
 
 Brittany Ho, Ta’Rhonda Mayberry, Khanh Linh Nguyen, Manohar Dhulipala, Vivek Krishnamani Pallipuram,
 ChatReview: A ChatGPT-enabled natural language processing framework to study domain-specific user reviews,
-Machine Learning with Applications, 2023, 100522, ISSN 2666-8270, https://doi.org/10.1016/j.mlwa.2023.100522.
+Machine Learning with Applications, Volume 15, 2024, 100522, ISSN 2666-8270, https://doi.org/10.1016/j.mlwa.2023.100522.
+
 
 # Abstract
 
