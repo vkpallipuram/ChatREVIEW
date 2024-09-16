@@ -1,4 +1,4 @@
- **This work has been accepted in Machine Learning and Applications as of December 17 2023. Please cite the paper as follows until further update**
+ **This work has been published in Machine Learning and Applications as of December 17 2023. If you use ther data and/or the code, please cite the paper as follows**
 
 Brittany Ho, Ta’Rhonda Mayberry, Khanh Linh Nguyen, Manohar Dhulipala, Vivek Krishnamani Pallipuram,
 ChatReview: A ChatGPT-enabled natural language processing framework to study domain-specific user reviews,
